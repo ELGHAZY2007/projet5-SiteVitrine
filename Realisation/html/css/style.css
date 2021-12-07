@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth ;
 }
 body{
     margin: 0px;
@@ -18,7 +18,7 @@ nav{
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
-    border-bottom: 5px solid #cdb4db;
+    border-bottom: 5px solid #D6E1FD;
 }
 
 nav .onglets{
@@ -27,7 +27,7 @@ nav .onglets{
 }
 nav .onglets a{
     text-decoration: none;
-    color: #bbadff;
+    color: #e0aaff;
     margin-right: 10px;
     border-bottom: 1px solid #bbadff;
     padding-bottom: 5px;
@@ -37,7 +37,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://i.ibb.co/4d8CYtM/background-header.jpg'");
+    background-color: #e2eafc;
     background-size: cover;
     color: #fff;
     padding: 40px;
@@ -80,8 +80,8 @@ header h4{
                    
 footer{
     margin-top: 40px;
-    border-top: 5px solid #6f6f6f;
-    background-color: rgb(0, 0, 0);
+    border-top: 5px solid #D6E1FD;
+    background-color:#dfe7fd;
     color: #fff;
     padding: 30px 100px;;
 }
@@ -103,5 +103,5 @@ footer .services .service p{
     max-width: 300px;
 }
 footer #contact{
-    color: rgb(181, 181, 181);
+    color: #fff;
 }
